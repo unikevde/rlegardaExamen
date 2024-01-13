@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rlegardaExamen.Vistas.Resumen">
+    <VerticalStackLayout>
+        <Label 
+            Text="VENTANA DE RESUMEN"
+            TextColor="Blue"
+            FontSize="22"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lblnombre" Text="NOMBRE"
+                    FontSize="18"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+            <Entry x:Name="txtnombre"
+                    Grid.Row="0"
+                    Grid.Column="1"/>
+            <Label x:Name="lblapellido" Text="APELLIDO"
+                    FontSize="18"
+                    Grid.Row="1"
+                    Grid.Column="0"/>
+            <Entry x:Name="txtapellido"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+            <Label x:Name="lbledad" Text="EDAD"
+                    FontSize="18"
+                    Grid.Row="2"
+                    Grid.Column="0"/>
+            <Entry x:Name="txtedad"
+                     Grid.Row="2"
+                     Grid.Column="1"/>
+            <Label x:Name="lblpais" Text="PAIS"
+                    FontSize="18"
+                     Grid.Row="3"
+                    Grid.Column="0"/>
+            <Entry x:Name="txtpais"
+                    Grid.Row="3"
+                    Grid.Column="1"/>
+            <Label x:Name="lblciudad" Text="CIUDAD"
+                    FontSize="18"
+                    Grid.Row="4"
+                    Grid.Column="0"/>
+            <Entry x:Name="txtciudad"
+                 Grid.Row="4"
+                 Grid.Column="1"/>
+            <Label x:Name="lblfecha" Text="FECHA"
+                FontSize="18"
+                Grid.Row="5"
+                Grid.Column="0"/>
+            <Entry x:Name="txtfecha"
+                Grid.Row="5"
+                Grid.Column="1"/>
+            <Label x:Name="lblinicial" Text="VALOR INICIAL"
+                FontSize="18"
+                 Grid.Row="6"
+                Grid.Column="0"/>
+            <Entry x:Name="txtinicial"
+                Grid.Row="6"
+                Grid.Column="1"/>
+            <Label x:Name="lblpago" Text="PAGO MENSUAL"
+                    FontSize="18"
+                    Grid.Row="7"
+                    Grid.Column="0"/>
+            <Entry x:Name="txtpago"
+                   Grid.Row="7"
+                   Grid.Column="1"/>
+            <Label x:Name="lbltotal" Text="TOTAL"
+                    FontSize="18"
+                    Grid.Row="8"
+                    Grid.Column="0"/>
+            <Entry x:Name="txttotal"
+                    Grid.Row="8"
+                    Grid.Column="1"/>
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
